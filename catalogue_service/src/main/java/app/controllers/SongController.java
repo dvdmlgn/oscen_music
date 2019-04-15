@@ -23,7 +23,7 @@ public class SongController {
 
       new Song.Builder().withId(2).withName("second song").build()).collect(Collectors.toList());
 
-    return new SongList(songs);
+    return new SongList(songs, "songs");
   }
 
   @GetMapping(value = "getbyid")
@@ -39,7 +39,7 @@ public class SongController {
 
       new Song.Builder().withId(4).withName("fourth song").build()).collect(Collectors.toList());
 
-    return new SongList(songs);
+    return new SongList(songs, "songs");
   }
 
 }
