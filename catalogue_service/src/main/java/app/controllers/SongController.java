@@ -14,7 +14,7 @@ import app.models.SongList;
 
 @RestController
 @RequestMapping(value = "songs")
-public class songController {
+public class SongController {
 
   @GetMapping(value = "get")
   public SongList getSongs() {
