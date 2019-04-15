@@ -14,24 +14,24 @@ public class Song {
 
   private Song() {}
 
-  public class Builder {
+  public static class Builder {
     private int id;
     private String name;
 
     public Builder() {}
 
-    public Builder withId(int id) {
+    public Builder withId(final int id) {
       this.id = id;
       return this;
     }
 
-    public Builder withName(String name) {
+    public Builder withName(final String name) {
       this.name = name;
       return this;
     }
 
     public Song build() {
-      Song song = new Song();
+      final Song song = new Song();
       song.id = this.id;
       song.name = this.name;
 
