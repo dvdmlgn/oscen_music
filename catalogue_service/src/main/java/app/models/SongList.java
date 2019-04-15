@@ -11,4 +11,5 @@ public class SongList {
     this.songList = songs;
     this.type = type;
   }
+
 }
