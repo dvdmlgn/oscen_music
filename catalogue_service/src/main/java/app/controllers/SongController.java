@@ -27,13 +27,19 @@ public class SongController {
   }
 
   @GetMapping(value = "getbyid")
-  public String getSongById(@RequestParam(value = "id") final int id ) {
-    return String.format("you're looking for a song with an Id of: %d", id);
+  public Song getSongById(@RequestParam(value = "id")
+  final int id) {
+    return new Song.Builder().withId(id).withName("name of the song").build();
   }
 
   @GetMapping(value = "getbyartist")
-  public String getByArtist(@RequestParam(value = "artist") final String artist) {
-    return String.format("you wanted to find some songs by %s", artist);
+  public SongList getByArtist(@RequestParam(value = "artist")
+  final String artist) {
+    final List<Song> songs = Stream.of(new Song.Builder().withId(3).withName("third song").build(),
+
+      new Song.Builder().withId(4).withName("fourth song").build()).collect(Collectors.toList());
+
+    return new SongList(songs);
   }
 
 }
