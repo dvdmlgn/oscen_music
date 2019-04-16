@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EclipseCodeFormatterProjectSettings">
+    <option name="projectSpecificProfile">
+      <ProjectSpecificProfile>
+        <option name="formatter" value="ECLIPSE" />
+        <option name="pathToConfigFileJava" value="$USER_HOME$/Documents/OverstockConventionsNew.xml" />
+        <option name="selectedJavaProfile" value="Overstock Conventions" />
+      </ProjectSpecificProfile>
+    </option>
+    <option name="selectedGlobalProfile">
+      <Settings>
+        <option name="formatter" value="ECLIPSE" />
+        <option name="id" value="1554981328358" />
+        <option name="name" value="Overstock Default" />
+        <option name="pathToConfigFileJava" value="$USER_HOME$/Documents/OverstockConventionsNew.xml" />
+        <option name="selectedJavaProfile" value="Overstock Conventions" />
+      </Settings>
+    </option>
+  </component>
+</project>
