@@ -19,16 +19,16 @@ public class AlbumServiceImpl implements AlbumService {
 
   @Override
   public List<AlbumDto> getFeaturedAlbums(final int offsetIteration) {
-    return null;
+    return client.getFeaturedAlbums(offsetIteration);
   }
 
   @Override
   public List<AlbumDto> getFeaturedAlbumsByGenre(final String genre, final int offsetIteration) {
-    return null;
+    return client.getFeaturedAlbumsByGenre(genre, offsetIteration);
   }
 
   @Override
   public List<AlbumDto> getAlbumsByArtist(final ArtistDto artist) {
-    return null;
+    return client.getAlbumsByArtist(artist);
   }
 }
