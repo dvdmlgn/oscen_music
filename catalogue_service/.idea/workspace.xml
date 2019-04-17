@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13b2c1df-a738-4648-8bc8-34ed21663533" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oscen/catalogue/CatalogueServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oscen/catalogue/client/MusicSorceClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oscen/catalogue/common/AlbumType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oscen/catalogue/dto/AlbumDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oscen/catalogue/dto/ArtistDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oscen/catalogue/dto/TrackDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oscen/catalogue/service/AlbumService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oscen/catalogue/service/ArtistService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oscen/catalogue/service/TrackService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oscen/catalogue/service/implementation/AlbumServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oscen/catalogue/service/implementation/ArtistServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oscen/catalogue/service/implementation/TrackServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../api_gateway/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api_gateway/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/catalogue-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/catalogue-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/catalogue-service-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/catalogue-service-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oscen/catalogue/client/MusicSorceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oscen/catalogue/client/MusicSourceClient.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,38 +29,14 @@
     <option name="myElementSize" value="346" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.501002">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pom.xml">
-              <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="249">
-                  <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/oscen/catalogue/CatalogueServiceApplication.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="324">
-                  <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#265#266#0" expanded="true" />
-                    <element signature="e#331#332#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/oscen/catalogue/dto/TrackDto.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="216">
-                  <caret line="34" column="2" lean-forward="true" selection-start-line="34" selection-start-column="2" selection-end-line="39" selection-end-column="5" />
+                  <caret line="34" column="2" selection-start-line="34" selection-start-column="2" selection-end-line="39" selection-end-column="5" />
                   <folding>
                     <element signature="e#664#665#0" expanded="true" />
                     <element signature="e#688#689#0" expanded="true" />
@@ -131,7 +105,7 @@
             <entry file="file://$PROJECT_DIR$/src/main/java/com/oscen/catalogue/common/AlbumType.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="135">
-                  <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+                  <caret line="5" selection-start-line="5" selection-end-line="5" />
                 </state>
               </provider>
             </entry>
@@ -159,13 +133,89 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/oscen/catalogue/client/MusicSorceClient.java">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/oscen/catalogue/service/TrackService.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="675">
-                  <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+                <state relative-caret-position="405">
+                  <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/oscen/catalogue/service/implementation/TrackServiceImpl.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="594">
+                  <caret line="36" column="65" selection-start-line="36" selection-start-column="65" selection-end-line="36" selection-end-column="65" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#449#450#0" expanded="true" />
+                    <element signature="e#478#479#0" expanded="true" />
+                    <element signature="e#705#706#0" expanded="true" />
+                    <element signature="e#726#727#0" expanded="true" />
+                    <element signature="e#831#832#0" expanded="true" />
+                    <element signature="e#852#853#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/oscen/catalogue/service/AlbumService.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="405">
+                  <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/oscen/catalogue/service/implementation/AlbumServiceImpl.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="351">
+                  <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#448#449#0" expanded="true" />
+                    <element signature="e#478#479#0" expanded="true" />
+                    <element signature="e#341#342#0" expanded="true" />
+                    <element signature="e#362#363#0" expanded="true" />
+                    <element signature="e#461#462#0" expanded="true" />
+                    <element signature="e#482#483#0" expanded="true" />
+                    <element signature="e#557#558#0" expanded="true" />
+                    <element signature="e#578#579#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/oscen/catalogue/service/ArtistService.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="270">
+                  <caret line="10" column="89" selection-start-line="10" selection-start-column="89" selection-end-line="10" selection-end-column="89" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/oscen/catalogue/service/implementation/ArtistServiceImpl.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="378">
+                  <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#412#413#0" expanded="true" />
+                    <element signature="e#438#439#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -175,7 +225,7 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/oscen/catalogue/dto/ArtistDto.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="702">
@@ -187,6 +237,18 @@
                     <element signature="e#757#758#0" expanded="true" />
                     <element signature="e#1226#1227#0" expanded="true" />
                     <element signature="e#1250#1251#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/oscen/catalogue/client/MusicSourceClient.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="249">
+                  <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -241,6 +303,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/oscen/catalogue/dto/AlbumDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oscen/catalogue/dto/ArtistDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/oscen/catalogue/client/MusicSorceClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/oscen/catalogue/service/interface/TestService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/oscen/catalogue/client/MusicSourceClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/oscen/catalogue/service/implementation/ArtistServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/oscen/catalogue/service/ArtistService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/oscen/catalogue/service/TrackService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/oscen/catalogue/service/implementation/TrackServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/oscen/catalogue/service/AlbumService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/oscen/catalogue/service/implementation/AlbumServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -313,6 +383,25 @@
               <item name="catalogue" type="462c0819:PsiDirectoryNode" />
               <item name="dto" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="catalogueservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="catalogue_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="catalogue" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="catalogueservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="catalogue_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="catalogue" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="implementation" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -322,7 +411,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555515360128" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555518022555" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
@@ -582,14 +671,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/oscen/catalogue/common/AlbumType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/oscen/catalogue/dto/TrackDto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="34" column="2" lean-forward="true" selection-start-line="34" selection-start-column="2" selection-end-line="39" selection-end-column="5" />
+          <caret line="34" column="2" selection-start-line="34" selection-start-column="2" selection-end-line="39" selection-end-column="5" />
           <folding>
             <element signature="e#664#665#0" expanded="true" />
             <element signature="e#688#689#0" expanded="true" />
@@ -651,6 +740,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oscen/catalogue/service/interface/TrackService">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oscen/catalogue/service/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oscen/catalogue/service/interface/TestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="46" lean-forward="true" selection-start-column="46" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oscen/catalogue/service/TestServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/oscen/catalogue/dto/ArtistDto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -672,12 +785,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oscen/catalogue/client/MusicSorceClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oscen/catalogue/client/MusicSourceClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        <state relative-caret-position="249">
+          <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oscen/catalogue/service/implementation/ArtistServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oscen/catalogue/service/ArtistService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="89" selection-start-line="10" selection-start-column="89" selection-end-line="10" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oscen/catalogue/service/TrackService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oscen/catalogue/service/implementation/TrackServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="36" column="65" selection-start-line="36" selection-start-column="65" selection-end-line="36" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oscen/catalogue/service/AlbumService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oscen/catalogue/service/implementation/AlbumServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
           </folding>
         </state>
       </provider>
