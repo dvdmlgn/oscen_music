@@ -2,33 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eee5dffc-03b9-461f-a739-7e938d68a12b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oscenMusic/app.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oscenMusic/client/MusicClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oscenMusic/controller/MusicController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/oscenMusic/service/MusicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../catalogue_service/src/main/java/com/oscen/catalogue/CatalogueServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../catalogue_service/src/main/java/com/oscen/catalogue/client/MusicSorceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../catalogue_service/src/main/java/com/oscen/catalogue/common/AlbumType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../catalogue_service/src/main/java/com/oscen/catalogue/dto/AlbumDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../catalogue_service/src/main/java/com/oscen/catalogue/dto/ArtistDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../catalogue_service/src/main/java/com/oscen/catalogue/dto/TrackDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../catalogue_service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../catalogue_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../catalogue_service/target/catalogue-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/target/catalogue-service-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../catalogue_service/target/catalogue-service-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/target/catalogue-service-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../catalogue_service/target/classes/app/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/target/classes/app/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../catalogue_service/target/classes/app/apiClient/catalogueClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/target/classes/app/apiClient/catalogueClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../catalogue_service/target/classes/app/controllers/AlbumController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/target/classes/app/controllers/AlbumController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../catalogue_service/target/classes/app/controllers/ArtistController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/target/classes/app/controllers/ArtistController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../catalogue_service/target/classes/app/controllers/GenreController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/target/classes/app/controllers/GenreController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../catalogue_service/target/classes/app/controllers/PromotionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/target/classes/app/controllers/PromotionController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../catalogue_service/target/classes/app/controllers/songController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/target/classes/app/controllers/songController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../catalogue_service/target/classes/app/models/Album$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/target/classes/app/models/Album$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../catalogue_service/target/classes/app/models/Album.class" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/target/classes/app/models/Album.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../catalogue_service/target/classes/app/models/Artist$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/target/classes/app/models/Artist$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../catalogue_service/target/classes/app/models/Artist.class" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/target/classes/app/models/Artist.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../catalogue_service/target/classes/app/models/Genre$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/target/classes/app/models/Genre$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../catalogue_service/target/classes/app/models/Genre.class" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/target/classes/app/models/Genre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../catalogue_service/target/classes/app/models/Song$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/target/classes/app/models/Song$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../catalogue_service/target/classes/app/models/Song.class" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/target/classes/app/models/Song.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../catalogue_service/target/classes/app/models/SongList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/target/classes/app/models/SongList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../catalogue_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,15 +51,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/oscenMusic/controller/MusicController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="729">
-              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+            <state relative-caret-position="648">
+              <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#520#521#0" expanded="true" />
                 <element signature="e#561#562#0" expanded="true" />
                 <element signature="e#605#606#0" expanded="true" />
                 <element signature="e#623#624#0" expanded="true" />
-                <element signature="e#697#698#0" expanded="true" />
                 <element signature="e#726#727#0" expanded="true" />
               </folding>
             </state>
@@ -212,7 +195,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555428217719" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555515360163" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
   <component name="RunDashboard">
@@ -321,15 +304,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/oscenMusic/controller/MusicController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        <state relative-caret-position="648">
+          <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#520#521#0" expanded="true" />
             <element signature="e#561#562#0" expanded="true" />
             <element signature="e#605#606#0" expanded="true" />
             <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
             <element signature="e#726#727#0" expanded="true" />
           </folding>
         </state>
