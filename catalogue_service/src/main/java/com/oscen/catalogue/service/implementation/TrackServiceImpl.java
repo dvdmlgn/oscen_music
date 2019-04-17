@@ -4,11 +4,13 @@ import java.util.List;
 
 import javax.inject.Inject;
 
+import org.springframework.stereotype.Service;
+
 import com.oscen.catalogue.client.MusicSourceClient;
-import com.oscen.catalogue.dto.ArtistDto;
 import com.oscen.catalogue.dto.TrackDto;
 import com.oscen.catalogue.service.TrackService;
 
+@Service
 public class TrackServiceImpl implements TrackService {
   private final MusicSourceClient client;
 
@@ -28,8 +30,11 @@ public class TrackServiceImpl implements TrackService {
   }
 
   @Override
-  public List<TrackDto> getTracksByArtist(final ArtistDto artist) {
-    return client.getTracksByArtist(artist);
+  public List<TrackDto> getTracksByArtist(final String artistName) {
+    // @cleanup: need to test and verify that this works, and get/find a cleaner solution?
+    return (List<TrackDto>) client.getArtistsByName(artistName)
+        .stream()
+        .map(artist -> client.getTracksByArtist(artist));
   }
 
   @Override

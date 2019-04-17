@@ -44,6 +44,11 @@ public class MusicSourceClient {
     return null;
   }
 
+  public List<ArtistDto> getArtistsByName(final String name) {
+    // @todo: do implementation
+    return null;
+  }
+
   public List<AlbumDto> getFeaturedAlbums(final int offsetIteration) {
     // @todo: do implementation
     return null;

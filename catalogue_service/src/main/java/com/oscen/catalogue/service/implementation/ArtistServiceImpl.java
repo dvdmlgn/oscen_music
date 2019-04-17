@@ -4,10 +4,13 @@ import java.util.List;
 
 import javax.inject.Inject;
 
+import org.springframework.stereotype.Service;
+
 import com.oscen.catalogue.client.MusicSourceClient;
 import com.oscen.catalogue.dto.ArtistDto;
 import com.oscen.catalogue.service.ArtistService;
 
+@Service
 public class ArtistServiceImpl implements ArtistService {
   private final MusicSourceClient client;
 
