@@ -25,6 +25,11 @@ public class ArtistServiceImpl implements ArtistService {
   }
 
   @Override
+  public List<ArtistDto> getArtistsByName(final String name) {
+    return client.getArtistsByName(name);
+  }
+
+  @Override
   public List<ArtistDto> getFeaturedArtistsByGenre(final String genre, final int offsetIteration) {
     return client.getFeaturedArtistsByGenre(genre, offsetIteration);
   }

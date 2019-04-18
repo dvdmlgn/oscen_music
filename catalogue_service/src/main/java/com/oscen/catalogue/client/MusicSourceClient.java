@@ -2,10 +2,13 @@ package com.oscen.catalogue.client;
 
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
 import com.oscen.catalogue.dto.AlbumDto;
 import com.oscen.catalogue.dto.ArtistDto;
 import com.oscen.catalogue.dto.TrackDto;
 
+@Service
 public class MusicSourceClient {
 
   private static final int resultLimit = 12;

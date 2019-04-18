@@ -15,6 +15,7 @@ import com.oscen.catalogue.service.TrackService;
 @RestController
 @RequestMapping(value = "track")
 public class TrackController {
+
   private final TrackService service;
 
   @Inject
