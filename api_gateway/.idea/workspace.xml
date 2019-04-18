@@ -2,14 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eee5dffc-03b9-461f-a739-7e938d68a12b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../catalogue_service/src/main/java/com/oscen/catalogue/controller/TrackController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../catalogue_service/src/main/java/com/oscen/catalogue/dto/BundleDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../catalogue_service/.idea/sonarlint/issuestore/1/0/10edb266200144cf4bfe18044835691fa5d6a4b4" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/.idea/sonarlint/issuestore/1/0/10edb266200144cf4bfe18044835691fa5d6a4b4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../catalogue_service/.idea/sonarlint/issuestore/f/1/f1da3f6802252818db357434ec094b75e112cbdb" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/.idea/sonarlint/issuestore/f/1/f1da3f6802252818db357434ec094b75e112cbdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../catalogue_service/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../catalogue_service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../catalogue_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../catalogue_service/src/main/java/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/src/main/java/app/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../catalogue_service/src/main/java/com/oscen/catalogue/CatalogueServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/src/main/java/com/oscen/catalogue/CatalogueServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../catalogue_service/src/main/java/com/oscen/catalogue/client/MusicSourceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/src/main/java/com/oscen/catalogue/client/MusicSourceClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../catalogue_service/src/main/java/com/oscen/catalogue/service/TrackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/src/main/java/com/oscen/catalogue/service/TrackService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../catalogue_service/src/main/java/com/oscen/catalogue/service/implementation/AlbumServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/src/main/java/com/oscen/catalogue/service/implementation/AlbumServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../catalogue_service/src/main/java/com/oscen/catalogue/service/implementation/ArtistServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/src/main/java/com/oscen/catalogue/service/implementation/ArtistServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../catalogue_service/src/main/java/com/oscen/catalogue/service/implementation/TrackServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/src/main/java/com/oscen/catalogue/service/implementation/TrackServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../catalogue_service/target/catalogue-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/target/catalogue-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../catalogue_service/target/catalogue-service-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/target/catalogue-service-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../catalogue_service/target/classes/app/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../catalogue_service/target/classes/com/oscen/catalogue/CatalogueServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/target/classes/com/oscen/catalogue/CatalogueServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../catalogue_service/target/classes/com/oscen/catalogue/client/MusicSourceClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/target/classes/com/oscen/catalogue/client/MusicSourceClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../catalogue_service/target/classes/com/oscen/catalogue/service/TrackService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/target/classes/com/oscen/catalogue/service/TrackService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../catalogue_service/target/classes/com/oscen/catalogue/service/implementation/AlbumServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/target/classes/com/oscen/catalogue/service/implementation/AlbumServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../catalogue_service/target/classes/com/oscen/catalogue/service/implementation/ArtistServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/target/classes/com/oscen/catalogue/service/implementation/ArtistServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../catalogue_service/target/classes/com/oscen/catalogue/service/implementation/TrackServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/target/classes/com/oscen/catalogue/service/implementation/TrackServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../catalogue_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../catalogue_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../catalogue_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,12 +33,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="745">
+            <state relative-caret-position="945">
               <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
             </state>
           </provider>
@@ -34,7 +47,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/oscenMusic/app.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="189">
               <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -48,15 +61,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/oscenMusic/controller/MusicController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+            <state relative-caret-position="270">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#520#521#0" expanded="true" />
-                <element signature="e#561#562#0" expanded="true" />
-                <element signature="e#605#606#0" expanded="true" />
-                <element signature="e#623#624#0" expanded="true" />
-                <element signature="e#726#727#0" expanded="true" />
+                <element signature="e#728#729#0" expanded="true" />
+                <element signature="e#771#772#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,14 +75,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/oscenMusic/service/MusicService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
+            <state relative-caret-position="324">
               <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#360#361#0" expanded="true" />
-                <element signature="e#426#427#0" expanded="true" />
-                <element signature="e#453#454#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,12 +87,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/oscenMusic/client/MusicClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
+            <state relative-caret-position="216">
               <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#183#184#0" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,8 +127,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="x" value="83" />
+    <option name="y" value="159" />
+    <option name="width" value="1680" />
+    <option name="height" value="1024" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -132,8 +138,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,7 +189,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555520134464" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555579538410" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
   <component name="RunDashboard">
@@ -212,20 +218,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="1005" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1680" height="975" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2936508" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="SonarLint" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -233,28 +234,32 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="SonarLint" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="745">
+        <state relative-caret-position="945">
           <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/oscenMusic/app.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="189">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -264,43 +269,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oscenMusic/client/MusicClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oscenMusic/service/MusicService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/oscenMusic/service/MusicService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/oscenMusic/client/MusicClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+        <state relative-caret-position="216">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/oscenMusic/controller/MusicController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+        <state relative-caret-position="270">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
           </folding>
         </state>
       </provider>

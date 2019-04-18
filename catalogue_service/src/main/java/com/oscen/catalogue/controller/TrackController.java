@@ -23,7 +23,12 @@ public class TrackController {
     this.service = service;
   }
 
-  @GetMapping()
+  @GetMapping
+  public String routeIsActiveResponse() {
+    return "hello there from track";
+  }
+
+  @GetMapping("featured")
   public List<TrackDto> getFeatruedTracks(@RequestParam(value = "offset")
   final int offsetIteration) {
     return this.service.getFeaturedTracks(offsetIteration);

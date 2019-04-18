@@ -7,6 +7,7 @@ com/oscen/catalogue/dto/AlbumDto$1.class
 app/controllers/AlbumController.class
 com/oscen/catalogue/CatalogueServiceApplication.class
 app/controllers/SongController.class
+com/oscen/catalogue/controller/AlbumController.class
 com/oscen/catalogue/dto/AlbumDto$Builder.class
 com/oscen/catalogue/service/TrackService.class
 com/oscen/catalogue/controller/TrackController.class
@@ -27,12 +28,15 @@ app/controllers/PromotionController.class
 com/oscen/catalogue/dto/ArtistDto$Builder.class
 com/oscen/catalogue/service/implementation/TrackServiceImpl.class
 app/models/Album$Builder.class
+com/oscen/catalogue/dto/BundleDto.class
 com/oscen/catalogue/service/ArtistService.class
 app/models/SongList.class
 app/models/Genre$Builder.class
 com/oscen/catalogue/dto/ArtistDto.class
 app/models/Album$1.class
+com/oscen/catalogue/controller/ArtistController.class
 app/models/Song$Builder.class
 app/apiClient/catalogueClient.class
 app/models/Album.class
 app/models/Song$1.class
+com/oscen/catalogue/dto/BundleDto$Builder.class

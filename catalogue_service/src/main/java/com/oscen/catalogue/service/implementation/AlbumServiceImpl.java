@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service;
 
 import com.oscen.catalogue.client.MusicSourceClient;
 import com.oscen.catalogue.dto.AlbumDto;
-import com.oscen.catalogue.dto.ArtistDto;
 import com.oscen.catalogue.service.AlbumService;
 
 @Service
@@ -31,7 +30,10 @@ public class AlbumServiceImpl implements AlbumService {
   }
 
   @Override
-  public List<AlbumDto> getAlbumsByArtist(final ArtistDto artist) {
-    return client.getAlbumsByArtist(artist);
+  public List<AlbumDto> getAlbumsByArtist(final String artistName) {
+    // @cleanup: need to test and verify that this works, and get/find a cleaner solution?
+    return (List<AlbumDto>) client.getArtistsByName(artistName)
+        .stream()
+        .map(artist -> client.getAlbumsByArtist(artist));
   }
 }

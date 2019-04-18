@@ -13,7 +13,7 @@ import com.oscen.catalogue.dto.ArtistDto;
 import com.oscen.catalogue.service.ArtistService;
 
 @RestController
-@RequestMapping(value = "artists")
+@RequestMapping(value = "artist")
 public class ArtistController {
 
   private final ArtistService service;
@@ -23,7 +23,12 @@ public class ArtistController {
     this.service = service;
   }
 
-  @GetMapping()
+  @GetMapping
+  public String routeIsActiveResponse() {
+    return "hello there from artist";
+  }
+
+  @GetMapping("featured")
   public List<ArtistDto> getFeaturedArtists(@RequestParam(value = "offset")
   final int offsetIteration) {
     return this.service.getFeaturedArtists(offsetIteration);
